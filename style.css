@@ -47,6 +47,7 @@ section#descricao{
     height: 450px;
 }
 section#mapa{
+    display: none;
 }
 footer{
     background-color: black;
