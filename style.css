@@ -45,6 +45,7 @@ section#descricao{
     padding: 40px;
     width: 744px;
     height: 450px;
+    min-width: 550px;
 }
 section#mapa{
     display: none;
