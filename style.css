@@ -8,6 +8,7 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
+    background-color: #f1f3f4;
 }
 a{
     text-decoration: none;
@@ -24,12 +25,28 @@ header > h1{
     font-variant: small-caps;
     font-size: 4vw;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
 article{
     display: flex;
     flex-direction: row;
+    
+}
+section{
+    background-color: white;
+    margin: 16px;
+    box-shadow: 0px 14px 16px rgba(255, 255, 255, 0.075);
+    border-radius: 5px;
+}
+section#descricao{
+    border: 2px solid #797D80;
+    padding: 40px;
+    width: 744px;
+    height: 450px;
 }
 section#mapa{
-    padding-left: 69px;
 }
 footer{
     background-color: black;
