@@ -13,8 +13,8 @@
     </header>
     <main>
         <article>
-            <section id="mapa">
-                <img src="imagens/mapa-south-american.png" alt="América do Sul">
+            <section id="mapa" mouseover="passou()">
+                <img src="imagens/mapa.png" alt="América do Sul">
                 <map name="south-american" ></map>
             </section>
             <section id="descricao">
@@ -25,5 +25,12 @@
     <footer>
         Mapa criado por <a href="https://github.com/edvanbarbosa">Edvan</a>
     </footer>
+    <script>
+        function passou(){
+            let map = document.getElementById('mapa')
+
+            map.style.display = 'none'
+        }
+    </script>
 </body>
 </html>
