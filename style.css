@@ -48,8 +48,8 @@ section#descricao{
     height: 450px;
     min-width: 300px;
 }
-section#mapa{
-    
+img{
+    background-color: black;
 }
 footer{
     background-color: black;
