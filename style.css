@@ -32,6 +32,7 @@ main{
 article{
     display: flex;
     flex-direction: row;
+    margin: auto;
     
 }
 section{
@@ -45,10 +46,10 @@ section#descricao{
     padding: 40px;
     width: 744px;
     height: 450px;
-    min-width: 550px;
+    min-width: 300px;
 }
 section#mapa{
-    display: none;
+    
 }
 footer{
     background-color: black;
