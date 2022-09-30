@@ -26,7 +26,7 @@ header{
     justify-content: space-between;
     background: #f1f3f4c6 url(imagens/pexels-nothing-ahead-9494920.jpg) no-repeat fixed center bottom;
     background-size: cover;
-    height: 20vh;
+    min-height: 20vh;
     box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.331) ;
     color: white;
     padding: 3px;
@@ -145,8 +145,9 @@ footer{
 }
 @media screen and (max-width: 1090px) {
     header{
-        background: #f1f3f4c6 url(imagens/ppp.png) no-repeat fixed left top;
-        background-size: contain;
+        background: #f1f3f4c6 url(imagens/ppp.png) no-repeat fixed right top ;
+        max-height: 100vh;
+        background-size: cover;
     }
 
     header>h1{
