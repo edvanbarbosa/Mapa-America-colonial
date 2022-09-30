@@ -90,9 +90,10 @@ article{
     
 }
 div#Mapa{
-    display: none;
+ display: none;
 }
 section{
+    margin-bottom: 30px;
     background-color: #E6E7EA;
     margin-top: 13px;
     border-radius: 5px;
@@ -100,23 +101,35 @@ section{
 section#mapa{
     text-align: center;
     border: rgb(52, 50, 50);
-    width: 664px;
+    padding: 30px 40px;
+    max-width: 664px;
     height: 550px;
-   
 }
 section#descricao{
-    padding: 40px;
+    text-align: justify;
+    margin-left: 9px;
+    max-width: 432px;
+    padding: 30px 40px;
     height: 550px;
 
 }
 
 .artigo{
-    display: block;
+    display: inline-block;
 }
 section.artigo{
     padding: 18px;
     text-indent: 20px;
-    width: 664px;
+    max-width: 1034px;
+}
+section.artigo>p{
+    margin:18px 0px;
+    line-height: 26px;
+}
+section.artigo>h1{
+    font-size: 2em;
+    padding-bottom: 19px;
+    border-bottom: 4px solid #f3b60d;
 }
 img{
     background-color: black;
@@ -142,5 +155,10 @@ footer{
 
     header>nav>a{
         padding: 7px 20px;
+    }
+
+    div#Mapa{
+        display: flex;
+        flex-direction: column;
     }
 }
