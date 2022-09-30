@@ -9,11 +9,10 @@
 
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-size: cover;
-    background-color: #f1f3f4c6;
+    
 }
 body{
-    
+    background-color: #f1f3f4c6;
 }
 a{
     text-decoration: none;
@@ -25,7 +24,7 @@ header{
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-    background: #f1f3f4c6 url(imagens/pexels-nothing-ahead-9494920.jpg) no-repeat fixed right bottom;
+    background: #f1f3f4c6 url(imagens/pexels-nothing-ahead-9494920.jpg) no-repeat fixed center bottom;
     background-size: cover;
     height: 20vh;
     box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.331) ;
@@ -59,32 +58,31 @@ main{
     justify-content: center;
 }
 article{
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     margin: auto;
     
 }
 section{
-    background-color: white;
-    margin: 16px;
+    background-color: #E6E7EA;
+    margin-top: 30px;
     box-shadow: 0px 14px 16px rgba(255, 255, 255, 0.075);
     border-radius: 5px;
 }
 section#mapa{
-    display: none;
-    border: 2px solid #797D80;
+    text-align: center;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.244) ;
     padding: 40px;
     width: 744px;
     height: 450px;
-    min-width: 300px;
+   
 }
 section#descricao{
-    border: 2px solid #797D80;
-    margin-top: 30px;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.244) ;
     padding: 40px;
-    width: 744px;
-    height: 470px;
-    min-width: 300px;
+    height: 450px;
+
 }
 img{
     background-color: black;
