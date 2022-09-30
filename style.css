@@ -24,7 +24,7 @@ header{
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-    background: #f1f3f4c6 url(imagens/pexels-nothing-ahead-9494920.jpg) no-repeat fixed center bottom;
+    background: #f1f3f4c6 url(imagens/) no-repeat fixed center bottom;
     background-size: cover;
     height: 20vh;
     box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.331) ;
@@ -96,3 +96,7 @@ footer{
     padding: 19px;
     text-align: left;
 }
+@media  screen and (max-width: 1090px) {
+    header{
+        
+    }
