@@ -158,7 +158,6 @@ footer{
     }
 
     div#Mapa{
-        display: flex;
         flex-direction: column;
     }
 }
