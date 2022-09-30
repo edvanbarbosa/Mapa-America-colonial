@@ -24,7 +24,7 @@ header{
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-    background: #f1f3f4c6 url(imagens/) no-repeat fixed center bottom;
+    background: #f1f3f4c6 url(imagens/pexels-nothing-ahead-9494920.jpg) no-repeat fixed center bottom;
     background-size: cover;
     height: 20vh;
     box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.331) ;
@@ -37,10 +37,11 @@ header > h1{
     margin-left: 28px;
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 4vw;
+    font-size: 3em;
     color: white;
 }
 nav{
+    display: none;
     margin-right: 28px;
     
 }
@@ -49,40 +50,73 @@ nav>a{
     border-radius: 4px;
     color:white;
     background-color: #f3b60d;
-    
+
+}
+nav#opcao{
+    display: block;
+}
+#opcao > ul{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
 }
 
-main{
+#opcao>ul>li{
+    padding: 5px 12px;
+    color: #f3b60d;
+    border-bottom: 3px solid transparent;
+}
+#opcao>ul>li:hover{
+    border-bottom: solid 3px #ead18c ;
+    cursor: pointer;
+}
+ul>li#bt-artigo{
+    border-bottom: 3px solid #f3b60d;
+}
 
+
+main{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
 }
 article{
     margin-top: 40px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
     margin: auto;
     
 }
+div#Mapa{
+    display: none;
+}
 section{
     background-color: #E6E7EA;
-    margin-top: 30px;
-    box-shadow: 0px 14px 16px rgba(255, 255, 255, 0.075);
+    margin-top: 13px;
     border-radius: 5px;
 }
 section#mapa{
     text-align: center;
-    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.244) ;
-    padding: 40px;
-    width: 744px;
-    height: 450px;
+    border: rgb(52, 50, 50);
+    width: 664px;
+    height: 550px;
    
 }
 section#descricao{
-    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.244) ;
     padding: 40px;
-    height: 450px;
+    height: 550px;
 
+}
+
+.artigo{
+    display: block;
+}
+section.artigo{
+    padding: 18px;
+    text-indent: 20px;
+    width: 664px;
 }
 img{
     background-color: black;
@@ -96,7 +130,17 @@ footer{
     padding: 19px;
     text-align: left;
 }
-@media  screen and (max-width: 1090px) {
+@media screen and (max-width: 1090px) {
     header{
-        
+        background: #f1f3f4c6 url(imagens/ppp.png) no-repeat fixed left top;
+        background-size: contain;
     }
+
+    header>h1{
+        font-size: 2.3em;
+    }
+
+    header>nav>a{
+        padding: 7px 20px;
+    }
+}
